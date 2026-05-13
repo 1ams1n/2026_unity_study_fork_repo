@@ -4,8 +4,13 @@ Logs/
 Obj/
 UserSettings/
 .vs/
+.vscode/	# Sieun add
 
 *.csproj
 *.sln
 *.user
 *.log
+
+# Sieun add
+/[Bb]uild/
+/[Bb]uilds/
