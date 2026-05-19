@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 49d06a1df98874cc496beb17a68aba04
+guid: a58ddd2948034f74da3ec74270899769
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2065984041467941068
-    second: waterbucket_0
+      213: 2302198289556121322
+    second: Square_Wall 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: waterbucket_0
+      name: Square_Wall 1_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 8
-        width: 26
-        height: 36
+        x: 22
+        y: 0
+        width: 63
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43f6da8d5762453e0800000000000000
-      internalID: -2065984041467941068
+      spriteID: ae62183952d03ff10800000000000000
+      internalID: 2302198289556121322
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      waterbucket_0: -2065984041467941068
+      Square_Wall 1_0: 2302198289556121322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
