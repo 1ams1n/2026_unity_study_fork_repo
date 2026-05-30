@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 361990503}
   - component: {fileID: 361990502}
   - component: {fileID: 361990501}
+  - component: {fileID: 361990505}
   m_Layer: 0
   m_Name: RestartButton
   m_TagString: Untagged
@@ -333,12 +334,26 @@ Transform:
   m_GameObject: {fileID: 361990500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.46, y: 4.333, z: 0}
+  m_LocalPosition: {x: 8.33, y: 4.27, z: 0}
   m_LocalScale: {x: 0.25500864, y: 0.2630786, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &361990505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361990500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef87579acf12934c9decb605c3896bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickableCursor
+  defaultCursor: {fileID: 2800000, guid: 2043efcf6a9af7744a3f85fd52ac83be, type: 3}
+  clickCursor: {fileID: 2800000, guid: 2eb457251a9268f4a9d26605d7a56f70, type: 3}
 --- !u!1 &394613672
 GameObject:
   m_ObjectHideFlags: 0
@@ -2728,8 +2743,8 @@ Transform:
   m_GameObject: {fileID: 1699356601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.10380003, y: -0.19970042, z: 0}
-  m_LocalScale: {x: 0.6662856, y: 0.6788581, z: 1}
+  m_LocalPosition: {x: 0.0248, y: -0.2117, z: 0}
+  m_LocalScale: {x: 0.7445196, y: 0.68054986, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
